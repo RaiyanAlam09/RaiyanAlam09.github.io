@@ -1,32 +1,45 @@
-body {
+html, body {
   position: relative;
   height: 1800px;
+  max-width: 100%;
+  -ms-overflow-style: none;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  background-color: rgba(0, 0, 0, 0.888);
+  scroll-behavior: smooth;
+}
+
+
 .text1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     font-weight: bold;
     position: relative;
     top: 12px;
-    left: 580px;
-    text-decoration-line: underline;
-    text-decoration-color: hsl(160, 87%, 40%) ;
-    text-decoration-style: solid;
-    text-decoration-thickness: 4px;
-    cursor: pointer;
-  }
-  .text2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    position: relative;
-    bottom: 100px;
     left: 400px;
     text-decoration-line: underline;
     text-decoration-color: hsl(160, 87%, 40%) ;
     text-decoration-style: solid;
     text-decoration-thickness: 4px;
     cursor: pointer;
+    color: white;
+  }
+  .text2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 51.7px;
+    left: 580px;
+    text-decoration-line: underline;
+    text-decoration-color: hsl(160, 87%, 40%) ;
+    text-decoration-style: solid;
+    text-decoration-thickness: 4px;
+    cursor: pointer;
+    color: white;
   }
 .subscribe-button {
     background-color: rgb(200, 0, 0);
@@ -100,9 +113,9 @@ body {
   }
 
 .RA {
-    background-color: white;
-    color: black;
-    border-color: black;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border-color: grey;
     border-width: 4px;
     height: 55px;
     width: 55px;
@@ -112,23 +125,23 @@ body {
     font-weight: bold;
     font-size: 22px;
     position: relative;
-    bottom: 190px;
+    bottom: 120px;
     left: 280px;
   }
 .contact {
-    background-color: white;
-    color: black;
-    border-color: black;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    border-color: grey;
     border-width: 4px;
     height: 55px;
-    width: 120px;
+    width: 200px;
     border-radius: 10px;
     border-style: solid;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: Bold;
-    font-size: 22px;
+    font-size: 30px;
     position: relative;
-    bottom: 170px;
+    bottom: 120px;
     left: 1500px;
     cursor: pointer;
   }
@@ -136,10 +149,10 @@ body {
     border: none;
     background-color: hsl(160, 87%, 40%);
     height: 30px;
-    width: 2376px;
+    width: 101vw;
     position: relative;
-    bottom: 325px;
-    right: 100px;
+    bottom: 270px;
+    right: 20px;
   }
 .image {
   width: 500px;
@@ -147,10 +160,11 @@ body {
   border-radius: 50%;
   background-color: black;
   overflow:hidden;
-  border: 7px solid black;
+  border: 8px solid grey;
   position: relative;
-  left: 900px;
   bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
   cursor: pointer;
   transition: border-color 0.3s;
 }
@@ -164,8 +178,29 @@ body {
 }
 .text3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   position: relative;
-  left: 400px;
+  text-align: center;
+  color: white;
+}
+
+.box{
+  background-color: rgba(17,24,39);
+  color: white;
+  width: 100vw;
+  height: 500px;  
+  position: relative;
+  right: 5px;
+  top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+
+.box p:first-of-type {
+  margin-bottom: 150px;
+  position: relative;
+  top: 30px;
 }
