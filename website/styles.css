@@ -1,6 +1,6 @@
 html, body {
   position: relative;
-  height: 1800px;
+  height: 1950px;
   max-width: 100%;
   -ms-overflow-style: none;
 }
@@ -18,10 +18,10 @@ html {
     font-size: 30px;
     font-weight: bold;
     position: relative;
-    top: 12px;
-    left: 400px;
+    top: 60px;
+    left: 600px;
     text-decoration-line: underline;
-    text-decoration-color: hsl(160, 87%, 40%) ;
+    text-decoration-color: hsl(242, 100%, 62%);
     text-decoration-style: solid;
     text-decoration-thickness: 4px;
     cursor: pointer;
@@ -32,84 +32,14 @@ html {
     font-size: 30px;
     font-weight: bold;
     position: relative;
-    bottom: 51.7px;
-    left: 580px;
+    top: 60px;
+    left: 650px;
     text-decoration-line: underline;
-    text-decoration-color: hsl(160, 87%, 40%) ;
+    text-decoration-color:hsl(242, 100%, 62%) ;
     text-decoration-style: solid;
     text-decoration-thickness: 4px;
     cursor: pointer;
     color: white;
-  }
-.subscribe-button {
-    background-color: rgb(200, 0, 0);
-    color: white;
-    border: none;
-    height: 35px;
-    width: 105px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    margin-left: 8px;
-    font-size: 15px;
-    transition: opacity 0.15s;
-    position: fixed;
-    top: 300px;
-    right: 2100px
-  }
-
-  .subscribe-button:hover {
-    opacity: 0.8;
-  }
-
-  .subscribe-button:active {
-    opacity: 0.5;
-  }
-
-.join-button {
-    background-color: white;
-    border-color: rgb(41, 118, 211);
-    border-style: solid;
-    border-width: 1px;
-    color: rgb(41, 118, 211);
-    height: 36px;
-    width: 62px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    font-size: 15px;
-    transition: background-color 1s, color 1s;
-    position: fixed;
-    top: 200px;
-
-  }
-
-.join-button:hover {
-    background-color: rgb(41, 118, 211);
-    color: white;
-  }
-
-.join-button:active {
-    opacity: 0.7;
-  }
-
-.tweet-button {
-    background-color: rgb(2, 158, 255);
-    color: white;
-    border: none;
-    height: 36px;
-    width: 70px;
-    border-radius: 18px;
-    font-weight: bold;
-    font-size: 15px;
-    cursor: pointer;
-    transition: box-shadow 0.5s;
-    position: fixed;
-    top: 400px;
-  }
-
-.tweet-button:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   }
 
 .RA {
@@ -125,33 +55,33 @@ html {
     font-weight: bold;
     font-size: 22px;
     position: relative;
-    bottom: 120px;
-    left: 280px;
+    top: 50px;
+    left: 40px;
   }
 .contact {
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
     border-color: grey;
     border-width: 4px;
-    height: 55px;
+    height: 90px;
     width: 200px;
     border-radius: 10px;
     border-style: solid;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: Bold;
-    font-size: 30px;
+    font-size: 27px;
     position: relative;
-    bottom: 120px;
-    left: 1500px;
+    top: 65px;
+    left: 1200px;
     cursor: pointer;
   }
 .rect {
     border: none;
-    background-color: hsl(160, 87%, 40%);
-    height: 30px;
+    background-color: hsl(242, 100%, 62%);
+    height: 40px;
     width: 101vw;
     position: relative;
-    bottom: 270px;
+    bottom: 67px;
     right: 20px;
   }
 .image {
@@ -162,19 +92,22 @@ html {
   overflow:hidden;
   border: 8px solid grey;
   position: relative;
-  bottom: 70px;
+  top: 50px;
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
   transition: border-color 0.3s;
+  will-change: border-color;
+  transform: translateZ(0);
 }
 .image:hover {
-  border-color: hsl(160, 87%, 40%);
+  border-color: hsl(242, 100%, 62%);
 }
 .image img{
   width: 100%;
   height: 100%;
   object-fit:cover;
+  content: url('united.jpg');
 }
 .text3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -183,6 +116,7 @@ html {
   position: relative;
   text-align: center;
   color: white;
+  top: 65px;
 }
 
 .box{
@@ -203,4 +137,148 @@ html {
   margin-bottom: 150px;
   position: relative;
   top: 30px;
+}
+
+.abt{
+  color:white;
+  text-align: left;
+  position: relative;
+  top: 50px;
+  left: 150px;
+  scroll-margin-left: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+
+.me{
+  color:white;
+  text-align: left;
+  position: relative;
+  left: 140px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  width: 50vw;
+  max-width: 50vw;
+  margin: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  top: 20px;
+}
+
+.img1 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: black;
+  overflow:hidden;
+  border: 8px solid grey;
+  position: relative;
+  margin-left: auto;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  bottom: 230px;
+  right: 200px;
+  will-change: border-color;
+  transform: translateZ(0);
+}
+
+.img1:hover {
+  border-color: hsl(162, 92%, 75%);
+}
+
+.img1 img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  content: url('me3.jpg');
+}
+
+.rep{
+  color:white;
+  text-align: left;
+  position: relative;
+  bottom: 500px;
+  left: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
+
+a{
+  color: hsl(162, 92%, 75%);
+  text-decoration: none;
+}
+
+a:hover{
+  color: hsl(162, 92%, 75%);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.rect1 {
+  border: none;
+  background-color: hsl(162, 47%, 58%);
+  height: 100px;
+  max-width: 101vw;
+  max-width: 101vw;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 300px;
+  border-radius: 20px;
+  padding-top: 55px;
+}
+
+.m3{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 410px;
+}
+
+.m4{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 430px;
+}
+
+.m5{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  bottom: 590px;
+}
+
+.btn4{
+    background-color: hsl(162, 47%, 58%);
+    border-color: hsl(162, 47%, 58%);
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 20px;
+    transition: background-color 1s, color 0.1s;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 790px;
+}
+
+.btn4:hover {
+  background-color: rgba(0, 0, 0, 0.888);
+  color: hsl(162, 47%, 58%);
+}
+
+.btn4:active {
+  opacity: 0.7;
 }
